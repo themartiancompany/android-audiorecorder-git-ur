@@ -1,0 +1,21 @@
+pkgbase = android-audiorecorder-git
+	pkgdesc = Android audio recorder.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gcb7cc7e93b1cfd86c4d4ae37d655eab1725782d1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-audiorecorder
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = libcrash-bash
+	depends = termux-api
+	provides = android-audiorecorder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gcb7cc7e93b1cfd86c4d4ae37d655eab1725782d1
+	conflicts = android-audiorecorder
+	source = android-audiorecorder.tar.gz::https://github.com/themartiancompany/android-audiorecorder/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = android-audiorecorder-git
